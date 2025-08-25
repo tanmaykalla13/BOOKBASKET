@@ -1,0 +1,28 @@
+.admin {
+  display: flex;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: #333;
+}
+
+a:hover {
+  color: #007bff;
+  transition: color 0.2s ease;
+}
+
+@media (max-width: 800px) {
+  .admin {
+    flex-direction: column;
+  }
+}

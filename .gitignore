@@ -1,0 +1,68 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+**/node_modules/
+
+# Build output
+**/dist/
+**/build/
+**/.vite/
+**/.next/
+**/.turbo/
+
+# Vercel and Netlify
+.vercel/
+.netlify/
+
+# Local env files
+**/.env
+**/.env.*.local
+**/.env.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# npm
+package-lock.json
+npm-shrinkwrap.json
+
+# Yarn
+yarn.lock
+
+# pnpm
+pnpm-lock.yaml
+
+# Mac/Linux
+*.swp
+*.tmp
+*~
+
+# Windows
+*.bak
+*.lnk
+
+# Coverage (if using test tools like Jest)
+coverage/
+*.lcov
+
+# Others
+*.tgz
+.cache/
